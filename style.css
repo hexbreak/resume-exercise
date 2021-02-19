@@ -1,7 +1,25 @@
-body {
-    background-color: white;
-    width: 555px;
+.container {
+    display: flex;
+    flex-direction: column;
 }
-.p-color {
-    color: pink;
+
+.container div, .container-2 div {
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.container-2 {
+    display:flex;
+}
+
+.item-1 {
+
+}
+
+.item-2 {
+    width: 30%;
+}
+
+.item-3 {
+
 }
