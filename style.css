@@ -1,6 +1,16 @@
+body {
+    justify-content: center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    background: #3a5d86
+}
+
+.container h1, h2{
+    color: white;
 }
 
 .container div, .container-2 div {
@@ -13,13 +23,20 @@
 }
 
 .item-1 {
-
+    
 }
 
 .item-2 {
-    width: 30%;
+    width: 60%;
 }
 
 .item-3 {
+    width: 40%;
+    background: #e7e7e7
+}
 
+hr {
+    border: none;
+    height: 5px;
+    background-color: #3a5d86;
 }
